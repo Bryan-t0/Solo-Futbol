@@ -37,6 +37,9 @@ class MenuAdminActivity : AppCompatActivity() {
        b.btnGestionUsuarios.setOnClickListener {
            startActivity(Intent(this, GestionarUsuarios::class.java))
        }
+        b.btnTestApi.setOnClickListener {
+            startActivity(Intent(this, TestApiActivity::class.java))
+        }
     }
 
 }
