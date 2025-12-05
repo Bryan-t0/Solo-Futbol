@@ -1,0 +1,305 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.solofutbol"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <uses-feature
+13-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:6:5-88
+14        android:name="android.hardware.camera.any"
+14-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:6:19-61
+15        android:required="false" />
+15-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:6:62-86
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\524f6f009c11b7957b36f195bd08a86e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.solofutbol.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\524f6f009c11b7957b36f195bd08a86e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\524f6f009c11b7957b36f195bd08a86e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.solofutbol.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21-->[androidx.core:core:1.13.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\524f6f009c11b7957b36f195bd08a86e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\524f6f009c11b7957b36f195bd08a86e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+22    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+23-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+25
+26    <application
+26-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:8:5-35:19
+27        android:allowBackup="true"
+27-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:9:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\524f6f009c11b7957b36f195bd08a86e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@drawable/logo_solo_futbol"
+31-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:10:9-50
+32        android:label="@string/app_name"
+32-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:11:9-41
+33        android:supportsRtl="true"
+33-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:12:9-35
+34        android:testOnly="true"
+35        android:theme="@style/TemaSoloFutbol" >
+35-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:13:9-46
+36        <activity
+36-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:16:9-23:20
+37            android:name="com.example.solofutbol.ui.PortadaActivity"
+37-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:17:13-47
+38            android:exported="true" >
+38-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:18:13-36
+39            <intent-filter>
+39-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:19:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:20:17-68
+40-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:20:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:21:17-76
+42-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:26:9-76
+46            android:name="com.example.solofutbol.ui.MainActivity"
+46-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:26:19-50
+47            android:exported="true" />
+47-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:26:51-74
+48        <activity
+48-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:27:9-87
+49            android:name="com.example.solofutbol.ui.admin.MenuAdminActivity"
+49-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:27:19-61
+50            android:exported="true" />
+50-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:27:62-85
+51        <activity
+51-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:28:9-91
+52            android:name="com.example.solofutbol.ui.usuario.MenuUsuarioActivity"
+52-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:28:19-65
+53            android:exported="true" />
+53-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:28:66-89
+54        <activity
+54-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:29:9-93
+55            android:name="com.example.solofutbol.ui.usuarios.CrearUsuarioActivity"
+55-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:29:19-67
+56            android:exported="true" />
+56-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:29:68-91
+57        <activity
+57-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:30:9-86
+58            android:name="com.example.solofutbol.ui.stock.VerStockActivity"
+58-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:30:19-60
+59            android:exported="true" />
+59-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:30:61-84
+60        <activity
+60-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:31:9-93
+61            android:name="com.example.solofutbol.ui.inventario.InventarioActivity"
+61-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:31:19-67
+62            android:exported="true" />
+62-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:31:68-91
+63        <activity
+63-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:32:9-84
+64            android:name="com.example.solofutbol.ui.qr.EscaneoQRActivity"
+64-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:32:19-58
+65            android:exported="true" />
+65-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:32:59-82
+66        <activity
+66-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:33:9-87
+67            android:name="com.example.solofutbol.ui.admin.GestionarUsuarios"
+67-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:33:19-61
+68            android:exported="true" />
+68-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:33:62-85
+69        <activity
+69-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:34:9-85
+70            android:name="com.example.solofutbol.ui.usuario.EditarUsuario"
+70-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:34:19-59
+71            android:exported="true" />
+71-->C:\Users\bryan torres\Downloads\SoloFutbol\app\src\main\AndroidManifest.xml:34:60-83
+72
+73        <service
+73-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+74            android:name="androidx.camera.core.impl.MetadataHolderService"
+74-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+75            android:enabled="false"
+75-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+76            android:exported="false" >
+76-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+78                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+78-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+79                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+79-->[androidx.camera:camera-camera2:1.3.4] C:\Users\bryan torres\.gradle\caches\8.9\transforms\9097266cdd639e4e2a9eb6edccda4662\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+80        </service>
+81        <service
+81-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\99597aaa930c07497db5233cc9635cc4\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+82            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+82-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\99597aaa930c07497db5233cc9635cc4\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+83            android:directBootAware="true"
+83-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:17:13-43
+84            android:exported="false" >
+84-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\99597aaa930c07497db5233cc9635cc4\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+85            <meta-data
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\99597aaa930c07497db5233cc9635cc4\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+86                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\99597aaa930c07497db5233cc9635cc4\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\99597aaa930c07497db5233cc9635cc4\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+88            <meta-data
+88-->[com.google.mlkit:vision-common:17.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\03b7418d3a1036e1a552398971ed5bc6\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+89-->[com.google.mlkit:vision-common:17.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\03b7418d3a1036e1a552398971ed5bc6\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.mlkit:vision-common:17.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\03b7418d3a1036e1a552398971ed5bc6\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:20:13-22:85
+92                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+92-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:21:17-120
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:22:17-82
+94        </service>
+95
+96        <provider
+96-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:9:9-13:38
+97            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+97-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:10:13-78
+98            android:authorities="com.example.solofutbol.mlkitinitprovider"
+98-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:11:13-69
+99            android:exported="false"
+99-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:12:13-37
+100            android:initOrder="99" />
+100-->[com.google.mlkit:common:18.11.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\0eb80d94e358cf67019ceb72ee354d7a\transformed\jetified-common-18.11.0\AndroidManifest.xml:13:13-35
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\864db22f7c2e9ffcd689b2a281b961ad\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\864db22f7c2e9ffcd689b2a281b961ad\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\864db22f7c2e9ffcd689b2a281b961ad\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\864db22f7c2e9ffcd689b2a281b961ad\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\aac6a7f5c2462d622e810ec918e5bc22\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\aac6a7f5c2462d622e810ec918e5bc22\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\aac6a7f5c2462d622e810ec918e5bc22\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.solofutbol.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\bryan torres\.gradle\caches\8.9\transforms\47b815f70fc554718e25448f568ccda4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\bryan torres\.gradle\caches\8.9\transforms\4f618fd9c5161ae0a49131259ca1a499\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\bryan torres\.gradle\caches\8.9\transforms\4f618fd9c5161ae0a49131259ca1a499\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\bryan torres\.gradle\caches\8.9\transforms\4f618fd9c5161ae0a49131259ca1a499\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <service
+126-->[androidx.room:room-runtime:2.6.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\dd8432bc422adf71f80dd1ff02792a9b\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+127            android:name="androidx.room.MultiInstanceInvalidationService"
+127-->[androidx.room:room-runtime:2.6.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\dd8432bc422adf71f80dd1ff02792a9b\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+128            android:directBootAware="true"
+128-->[androidx.room:room-runtime:2.6.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\dd8432bc422adf71f80dd1ff02792a9b\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+129            android:exported="false" />
+129-->[androidx.room:room-runtime:2.6.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\dd8432bc422adf71f80dd1ff02792a9b\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bryan torres\.gradle\caches\8.9\transforms\8a66dbf9180c3033d91c5312a9a3d7f1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150
+151        <service
+151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+152            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+153            android:exported="false" >
+153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+154            <meta-data
+154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+155                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+155-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+156                android:value="cct" />
+156-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\bryan torres\.gradle\caches\8.9\transforms\2a16e8cf8906e8a7a1b7be9ddd7dd28c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+157        </service>
+158        <service
+158-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+159-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+160            android:exported="false"
+160-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+161            android:permission="android.permission.BIND_JOB_SERVICE" >
+161-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+162        </service>
+163
+164        <receiver
+164-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+165            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+165-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+166            android:exported="false" />
+166-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\bryan torres\.gradle\caches\8.9\transforms\7480e5df8c25cd85405cdee2157b20f0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+167    </application>
+168
+169</manifest>

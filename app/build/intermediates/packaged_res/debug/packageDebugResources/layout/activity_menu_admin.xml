@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/include_background"/>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/logo_solo_futbol"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOLOFUTBOL    "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/sf_text"
+            android:layout_marginStart="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCrearUsuario"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Crear usuario" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnInventario"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Inventario" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVerStock"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Ver stock" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGestionUsuarios"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Gestionar usuarios"/>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

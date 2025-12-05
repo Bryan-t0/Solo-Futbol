@@ -1,0 +1,32 @@
+<resources>
+    <style name="TemaSoloFutbol" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorPrimary">@color/sf_primary</item>
+        <item name="colorOnPrimary">@color/sf_on_primary</item>
+
+
+        <item name="materialButtonStyle">@style/SF.Button</item>
+        <item name="textInputStyle">@style/SF.TextInput</item>
+
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Material3.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Material3.BodyMedium</item>
+    </style>
+
+    <style name="SF.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">44dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="SF.TextInput" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">#1AFFFFFF</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="hintTextColor">@color/sf_text_muted</item>
+    </style>
+</resources>

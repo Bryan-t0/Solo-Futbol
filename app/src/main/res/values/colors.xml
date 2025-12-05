@@ -1,0 +1,6 @@
+<resources>
+    <color name="sf_primary">#00B894</color>
+    <color name="sf_on_primary">#FFFFFF</color>
+    <color name="sf_text">#FFFFFF</color>
+    <color name="sf_text_muted">#B3FFFFFF</color>
+</resources>
