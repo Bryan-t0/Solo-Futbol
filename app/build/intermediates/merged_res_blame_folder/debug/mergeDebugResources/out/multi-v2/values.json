@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.solofutbol.app-mergeDebugResources-45:/values/values.xml",
+            "outputFile": "com.example.solofutbol.app-mergeDebugResources-2:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bryan torres\\.gradle\\caches\\8.9\\transforms\\a5c860cd9a2b46d6461cf18790d2b850\\transformed\\jetified-activity-1.9.2\\res\\values\\values.xml",
@@ -188,25 +188,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bryan torres\\Downloads\\SoloFutbol\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "18,23,1",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "779,952,16",
-                        "endLines": "21,30,16",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "946,1394,773"
-                    },
-                    "to": {
-                        "startLines": "5894,5898,6050",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "415110,415282,424765",
-                        "endLines": "5897,5905,6065",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "415277,415724,425522"
-                    }
-                },
-                {
                     "source": "C:\\Users\\bryan torres\\.gradle\\caches\\8.9\\transforms\\e07880c6ff49bb2d81cd733c3edfd521\\transformed\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -223,6 +204,25 @@
                         "endLines": "109,9314,11279,11363",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5821,646779,718263,722779"
+                    }
+                },
+                {
+                    "source": "C:\\SoloFutbol\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "18,23,1",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "779,952,16",
+                        "endLines": "21,30,16",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "946,1394,773"
+                    },
+                    "to": {
+                        "startLines": "5894,5898,6050",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "415110,415282,424765",
+                        "endLines": "5897,5905,6065",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "415277,415724,425522"
                     }
                 },
                 {
@@ -262,7 +262,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bryan torres\\Downloads\\SoloFutbol\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\SoloFutbol\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "2,1,3,4",
                         "startColumns": "4,4,4,4",
@@ -276,23 +276,6 @@
                         "startOffsets": "57216,57264,57309,57351",
                         "endColumns": "47,44,41,49",
                         "endOffsets": "57259,57304,57346,57396"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bryan torres\\Downloads\\SoloFutbol\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "47",
-                        "endOffsets": "98"
-                    },
-                    "to": {
-                        "startLines": "2004",
-                        "startColumns": "4",
-                        "startOffsets": "132463",
-                        "endColumns": "47",
-                        "endOffsets": "132506"
                     }
                 },
                 {
@@ -384,6 +367,23 @@
                         "endLines": "667,668,669,670,671,672,673,674,2023,2024,2025,2026,2027,2028,2029,2030,2032,2033,2034,2035,2036,2037,2038,2039,2040,11913,12914",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "34424,34504,34594,34684,34764,34845,34925,35005,134738,134919,135044,135151,135331,135454,135570,135673,136028,136133,136314,136439,136614,136762,136825,136887,136966,742901,779551"
+                    }
+                },
+                {
+                    "source": "C:\\SoloFutbol\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    },
+                    "to": {
+                        "startLines": "2004",
+                        "startColumns": "4",
+                        "startOffsets": "132463",
+                        "endColumns": "47",
+                        "endOffsets": "132506"
                     }
                 },
                 {

@@ -33,6 +33,9 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
   public final MaterialButton btnLogout;
 
   @NonNull
+  public final MaterialButton btnTestApi;
+
+  @NonNull
   public final MaterialButton btnVerStock;
 
   @NonNull
@@ -41,12 +44,14 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
   private ActivityMenuAdminBinding(@NonNull RelativeLayout rootView,
       @NonNull MaterialButton btnCrearUsuario, @NonNull MaterialButton btnGestionUsuarios,
       @NonNull MaterialButton btnInventario, @NonNull MaterialButton btnLogout,
-      @NonNull MaterialButton btnVerStock, @NonNull LinearLayout header) {
+      @NonNull MaterialButton btnTestApi, @NonNull MaterialButton btnVerStock,
+      @NonNull LinearLayout header) {
     this.rootView = rootView;
     this.btnCrearUsuario = btnCrearUsuario;
     this.btnGestionUsuarios = btnGestionUsuarios;
     this.btnInventario = btnInventario;
     this.btnLogout = btnLogout;
+    this.btnTestApi = btnTestApi;
     this.btnVerStock = btnVerStock;
     this.header = header;
   }
@@ -102,6 +107,12 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnTestApi;
+      MaterialButton btnTestApi = ViewBindings.findChildViewById(rootView, id);
+      if (btnTestApi == null) {
+        break missingId;
+      }
+
       id = R.id.btnVerStock;
       MaterialButton btnVerStock = ViewBindings.findChildViewById(rootView, id);
       if (btnVerStock == null) {
@@ -115,7 +126,7 @@ public final class ActivityMenuAdminBinding implements ViewBinding {
       }
 
       return new ActivityMenuAdminBinding((RelativeLayout) rootView, btnCrearUsuario,
-          btnGestionUsuarios, btnInventario, btnLogout, btnVerStock, header);
+          btnGestionUsuarios, btnInventario, btnLogout, btnTestApi, btnVerStock, header);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

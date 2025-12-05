@@ -8,6 +8,7 @@ drawable bg_overlay
 drawable fondo3
 drawable logo_solo_futbol
 drawable qr_border
+id btnConsultarApi
 id btnContinuar
 id btnCrear
 id btnCrearUsuario
@@ -21,6 +22,7 @@ id btnGuardarProducto
 id btnIngresar
 id btnInventario
 id btnLogout
+id btnTestApi
 id btnVerStock
 id btnVolver
 id cameraPreview
@@ -40,6 +42,7 @@ id header
 id headerUser
 id rvUsuarios
 id swAdminRow
+id tvResultadoApi
 id txtNombre
 id txtResultado
 id txtRut
@@ -54,6 +57,7 @@ layout activity_main
 layout activity_menu_admin
 layout activity_menu_usuario
 layout activity_portada
+layout activity_test_api
 layout activity_ver_stock
 layout include_background
 layout item_usuario

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.solofutbol.app-mergeDebugResources-45:/values-nb/values-nb.xml",
+            "outputFile": "com.example.solofutbol.app-mergeDebugResources-2:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bryan torres\\.gradle\\caches\\8.9\\transforms\\864db22f7c2e9ffcd689b2a281b961ad\\transformed\\jetified-play-services-base-18.5.0\\res\\values-nb\\values.xml",

@@ -3240,6 +3240,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnConsultarApi
 id btnContinuar
 id btnCrear
 id btnCrearUsuario
@@ -3253,6 +3254,7 @@ id btnGuardarProducto
 id btnIngresar
 id btnInventario
 id btnLogout
+id btnTestApi
 id btnVerStock
 id btnVolver
 id buttonPanel
@@ -3661,6 +3663,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvResultadoApi
 id txtNombre
 id txtResultado
 id txtRut
@@ -3814,6 +3817,7 @@ layout activity_main
 layout activity_menu_admin
 layout activity_menu_usuario
 layout activity_portada
+layout activity_test_api
 layout activity_ver_stock
 layout custom_dialog
 layout design_bottom_navigation_item

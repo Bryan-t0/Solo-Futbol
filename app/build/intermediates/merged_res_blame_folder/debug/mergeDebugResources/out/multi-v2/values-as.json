@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.solofutbol.app-mergeDebugResources-45:/values-as/values-as.xml",
+            "outputFile": "com.example.solofutbol.app-mergeDebugResources-2:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bryan torres\\.gradle\\caches\\8.9\\transforms\\bf287fb5d7ee5ae73f679bae72e2382b\\transformed\\material-1.12.0\\res\\values-as\\values-as.xml",

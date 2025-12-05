@@ -1,54 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_portada.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_portada.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/include_background.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/include_background.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_crear_usuario.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_crear_usuario.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_menu_usuario.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_menu_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_inventario.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_inventario.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_portada.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_portada.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_menu_admin.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_menu_admin.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_escanear_qr.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_escanear_qr.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\item_usuario.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\item_usuario.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_editar_usuario.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_editar_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_main.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_inventario.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_inventario.xml"
     },
     {
-        "merged": "com.example.solofutbol.app-mergeDebugResources-46:/layout/activity_escanear_qr.xml",
-        "source": "com.example.solofutbol.app-main-49:/layout/activity_escanear_qr.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_escanear_qr.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_escanear_qr.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/item_usuario.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/item_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\include_background.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\include_background.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_gestionar_usuarios.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_gestionar_usuarios.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_editar_usuario.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_editar_usuario.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_menu_admin.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_menu_admin.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_gestionar_usuarios.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_gestionar_usuarios.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_test_api.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_test_api.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_menu_usuario.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_menu_usuario.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_crear_usuario.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_crear_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-mergeDebugResources-46:\\layout\\activity_ver_stock.xml",
-        "source": "C:\\Users\\bryan torres\\.gradle\\daemon\\8.9\\com.example.solofutbol.app-main-49:\\layout\\activity_ver_stock.xml"
+        "merged": "com.example.solofutbol.app-mergeDebugResources-3:/layout/activity_ver_stock.xml",
+        "source": "com.example.solofutbol.app-main-6:/layout/activity_ver_stock.xml"
     }
 ]
