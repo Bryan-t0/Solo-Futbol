@@ -4,7 +4,7 @@ import com.example.solofutbol.util.Validaciones
 import org.junit.Assert.*
 import org.junit.Test
 
-class ValidacionesTest {
+class   ValidacionesTest {
 
     @Test
     fun validarSku_formatoCorrecto_retornaTrue() {
